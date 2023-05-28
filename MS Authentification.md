@@ -1,6 +1,6 @@
 ---
-created: <% tp.file.creation_date("dddd Do MMMM YYYY HH:mm:ss") %>
-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+created: Saturday 13th May 2023 20:09:39
+modified: Thursday 18th May 2023 01:26:06
 ---
 #security
 
@@ -12,3 +12,6 @@ Scopes:
 
 LINKS:
 [[Metadata Service]]
+[[Retrieving metadata record]]
+[[Creating metadata record]]
+[[Registering a service]]

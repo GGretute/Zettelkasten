@@ -1,6 +1,6 @@
 ---
-created: <% tp.file.creation_date("dddd Do MMMM YYYY HH:mm:ss") %>
-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+created: Saturday 13th May 2023 20:11:50
+modified: Thursday 18th May 2023 01:28:45
 ---
 #integration #usageInstructions 
 

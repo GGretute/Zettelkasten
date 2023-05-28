@@ -1,10 +1,10 @@
 ---
-created: <% tp.file.creation_date("dddd Do MMMM YYYY HH:mm:ss") %>
-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+created: Tuesday 16th May 2023 03:29:30
+modified: Thursday 18th May 2023 02:03:21
 ---
 #security #glossary 
 
-[Provide the main note or idea being documented in this Zettel.]
+Service clients possess more advanced privileges within the FileShare service. In addition to accessing and viewing files, they can upload, edit, and delete files and folders. Service clients can collaborate and participate actively in project workflows.
 
 LINKS:
 [[Permissions]]

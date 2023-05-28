@@ -1,10 +1,10 @@
 ---
-created: <% tp.file.creation_date("dddd Do MMMM YYYY HH:mm:ss") %>
-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+created: Tuesday 16th May 2023 03:28:57
+modified: Thursday 18th May 2023 02:03:11
 ---
 #security #glossary 
 
-[Provide the main note or idea being documented in this Zettel.]
+Registered clients have the ability to access and view files and folders within the FileShare service. They can browse and download files but do not have permissions to make any modifications or perform administrative tasks.
 
 LINKS:
 [[Permissions]]

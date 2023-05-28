@@ -1,10 +1,10 @@
 ---
-created: <% tp.file.creation_date("dddd Do MMMM YYYY HH:mm:ss") %>
-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+created: Tuesday 16th May 2023 03:29:57
+modified: Thursday 18th May 2023 02:03:19
 ---
 #security #glossary 
 
-[Provide the main note or idea being documented in this Zettel.]
+Service accounts are specialized accounts with elevated permissions within the FileShare service. They have full control over files and folders, including the ability to manage access permissions, create new folders, and perform administrative tasks. Service accounts are typically used by system administrators or trusted entities to perform maintenance and management activities.
 
 LINKS:
 [[Permissions]]

@@ -1,6 +1,6 @@
 ---
-created: <% tp.file.creation_date("dddd Do MMMM YYYY HH:mm:ss") %>
-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+created: Saturday 13th May 2023 20:11:50
+modified: Sunday 28th May 2023 21:55:06
 ---
 #integration 
 
@@ -17,7 +17,7 @@ Required properties:
 Optional properties:
 -   userId - the id of user who initiated an event
 
-Here is a bit modified example from Project Share:  
+Here is a bit modified example from Filehare:  
 `POST /Metadata`
 
 ```
@@ -52,3 +52,4 @@ Data in the data property will be used for generating dashboards. It is up to de
 
 LINKS:
 [[Metadata Service]]
+[[Registering a service]]

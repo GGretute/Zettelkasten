@@ -1,10 +1,10 @@
 ---
-created: <% tp.file.creation_date("dddd Do MMMM YYYY HH:mm:ss") %>
-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+created: Tuesday 16th May 2023 03:30:56
+modified: Wednesday 17th May 2023 23:41:14
 ---
 #design 
 
-[Provide the main note or idea being documented in this Zettel.]
+![[BusinessContext.png]]
 
 LINKS:
 [[FileShare Service]]
