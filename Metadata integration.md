@@ -1,6 +1,6 @@
 ---
-created: <% tp.file.creation_date("dddd Do MMMM YYYY HH:mm:ss") %>
-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
+created: Saturday 13th May 2023 22:34:36
+modified: Thursday 18th May 2023 01:24:25
 ---
 #integration #knownIssues
 
@@ -11,16 +11,18 @@ This Design Document explains how the Audit Records are handled by the service.
 1.  [[FileShare Operation]] completed
 2.  Metadata record is created
 3.  Metadata record saved in FileShare Database
-5.  The CleanMetadata WebJob is run daily. It
+4.  The CleanMetadata WebJob is run daily. It
     1.  Sends created Metadata record from FileShare Database to [[Metadata Service]]
     2.  If operation is successful, the Metadata record is marked as 'sent' = 'true' (default is 'false')
     3.  Removes earliest sent records
     4.  Leaves not-sent records
-6.  **[Currently disabled]** ResendRecords WebJob  
-    _Disabling this WebJob might cause a build-up of non-acknowledged Audit Records._
+5.  **Currently disabled** ResendRecords WebJob  
+    _Disabling this WebJob might cause a build-up of Metadata Records._
 
 LINKS:
 [[FileShare Service]]
+[[FileShare Operation]]
+[[Metadata Service]]
 
 
 
